@@ -1,7 +1,10 @@
 Version 4
-SymbolType BLOCK
+SymbolType CELL
 RECTANGLE Normal 128 240 -112 -241
-WINDOW 0 8 -271 Bottom 2
+WINDOW 0 9 -299 Bottom 2
+WINDOW 38 9 -267 Center 2
+SYMATTR SpiceModel 5Way SuperSwitch
+SYMATTR Description Parameters: p. p must be set either 1, 2, 3, 4 or 5. At p=1, common of A column (C_A) and Lug 1 of A (L1), C_B and B1, C_Y and Y1, C_Z and Z1 are connected. At p=2, C_A-A2, C_B-B2, C_Y-Y2, C_Z-Z2 are connected, etc.
 PIN -64 -144 LEFT 8
 PINATTR PinName A1
 PINATTR SpiceOrder 1

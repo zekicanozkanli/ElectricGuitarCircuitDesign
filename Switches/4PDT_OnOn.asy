@@ -1,7 +1,10 @@
 Version 4
-SymbolType BLOCK
+SymbolType CELL
 RECTANGLE Normal 160 144 -176 -144
-WINDOW 0 1 -169 Bottom 2
+WINDOW 0 0 -176 Bottom 2
+WINDOW 38 0 -160 Center 2
+SYMATTR SpiceModel 4PDT OnOn
+SYMATTR Description Parameters: p, is for position. By default, p=-1. p must be set either -1 or 1. At p=-1 C1-A2, C2-B2, C3-D2, C4, E2 connects.
 PIN -128 -80 BOTTOM 8
 PINATTR PinName A1
 PINATTR SpiceOrder 1
