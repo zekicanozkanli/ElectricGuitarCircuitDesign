@@ -1,3 +1,10 @@
+#Unchecked Files
+
+Following files have not been checked yet. Therefore an error may occure when working with them.
+
+-> Full Schemes
+-> Modes
+
 # Introduction
 
 The models presented herein represent analog components commonly (or uncommonly) utilized in electric guitar circuits for the purpose of simulating or analyzing in LTspice (Version 17). In instances where a component lacks specific model information, it is to be regarded as an ideal circuit component. Conversely, if the model details are provided, the component deviates from the idealistic properties, and hence converges to realistic properties. For example, a potentiometer denoted as "A250K" refers to an ideal logarithmic potentiometer with a resistance of 250 kilo-ohms, possessing no tolerance or loss. On the other hand, a pickup labelled "DiMarzio Velorum Bridge" encapsulates non-idealistic properties either provided by the manufacturer or even measured by ourselves. Therefore, it is strongly recommended that researchers should operate with the components with specified characteristics wherever feasible.
