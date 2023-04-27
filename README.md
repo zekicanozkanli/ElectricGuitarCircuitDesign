@@ -2,8 +2,8 @@
 
 Following files have not been checked yet. Therefore an error may occure when working with them.
 
--> Full Schemes
--> Modes
+1. Full Schemes
+2. Modes
 
 # Introduction
 
